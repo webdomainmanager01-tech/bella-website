@@ -1,0 +1,104 @@
+:root{--ink:#263329;--sage:#91a989;--pale:#eef4eb;--cream:#fbfaf6;--line:#cfddca;--white:#fff;--shadow:0 22px 55px rgba(38,51,41,.11)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:"DM Sans",sans-serif}.container{width:min(1380px,calc(100% - 64px));margin:auto}.wide-container{width:min(1440px,calc(100% - 64px));margin:auto}header{position:sticky;top:0;z-index:20;background:rgba(251,250,246,.95);border-top:6px solid var(--ink);border-bottom:1px solid #e7e8e3;backdrop-filter:blur(12px)}.navwrap{height:82px;display:flex;align-items:center;justify-content:space-between}.logo{font:500 31px "Playfair Display",serif;color:var(--ink);text-decoration:none}.logo span{color:var(--sage)}nav{display:flex;gap:40px}nav a,.plain{font-size:14px;font-weight:600;color:var(--ink);text-decoration:none}.menu{display:none;background:none;border:0;padding:8px}.menu i{display:block;width:28px;height:3px;background:var(--sage);border-radius:5px;margin:5px;transition:.25s}.menu.active i:nth-child(1){transform:translateY(8px) rotate(45deg)}.menu.active i:nth-child(2){opacity:0}.menu.active i:nth-child(3){transform:translateY(-8px) rotate(-45deg)}.hero{position:relative;overflow:hidden;background:linear-gradient(110deg,#fbfaf6 42%,#edf4e9);padding-top:84px}.orb{position:absolute;width:520px;height:520px;border-radius:50%;right:-120px;top:-190px;background:#dce8d7}.hero-grid{position:relative;display:grid;grid-template-columns:360px minmax(0,1fr);align-items:center;gap:90px;padding-bottom:70px}.profile{background:rgba(255,255,255,.9);border-radius:24px;padding:24px 30px;text-align:center;box-shadow:var(--shadow)}.portrait{width:165px;height:190px;margin:auto;border:10px solid #e5ede0;border-radius:75px 75px 18px 18px;overflow:hidden}.portrait img{width:100%;height:100%;object-fit:cover}.kicker{text-transform:uppercase;letter-spacing:3px;font-size:11px;font-weight:600;color:#60755e}.profile h2,.title,.booking-info h2,.closing h2{font-family:"Playfair Display",serif;font-weight:500}.profile h2{font-size:42px;margin:12px}.profile>p:not(.kicker){font-size:13px;line-height:1.65;color:#6d756e}.available{display:block;font-size:12px;margin-top:20px}.available::first-letter{color:#91b187}.profile small{display:block;margin-top:10px;color:#747c75}.hero-copy{max-width:900px}.hero-copy h1{font:500 70px/1.08 "Playfair Display",serif;margin:16px 0 24px}.hero-copy h1 em,.closing h2 em{font-weight:500;color:var(--sage)}.lead{max-width:730px;color:#69726b;line-height:1.75}.hero-actions{display:flex;align-items:center;gap:30px;margin:30px 0}.btn{display:inline-flex;padding:16px 25px;border-radius:99px;text-decoration:none;font-weight:600;font-size:14px}.dark{background:var(--ink);color:#fff}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:800px}.stats div{padding:20px;background:#e7eee3;border:1px solid var(--line);border-radius:16px}.stats strong{display:block;font:500 23px "Playfair Display",serif}.stats span{font-size:11px;color:#697269}.benefits{background:var(--ink);color:#fff;min-height:78px;display:grid;grid-template-columns:repeat(4,1fr);padding:13px max(32px,calc((100% - 1380px)/2));gap:16px}.benefits div{display:flex;align-items:center;justify-content:center;gap:10px;font-size:14px;font-weight:600}.benefits b{display:grid;place-items:center;width:32px;height:32px;border-radius:50%;background:rgba(169,195,159,.14);color:#b9d0b0}.section{padding:92px 0}.center,.title,.intro{text-align:center}.title{font-size:58px;margin:16px 0 10px}.intro{color:#707871;margin:0 0 45px}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.service-grid article{background:#f9f8f4;border:2px solid var(--line);border-radius:22px;padding:27px;min-height:190px}.service-grid article>b{display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:#e3ede0;margin-bottom:28px}.service-grid h3{font:500 27px "Playfair Display",serif;margin:0 0 8px}.service-grid p{font-size:13px;line-height:1.65;color:#727a73}.booking-section{background:var(--pale)}.booking-shell{display:grid;grid-template-columns:minmax(360px,38%) minmax(0,62%);align-items:stretch;border-radius:28px;overflow:hidden;box-shadow:var(--shadow)}.booking-info{background:#dfe9da;padding:52px 48px;display:flex;flex-direction:column}.booking-info h2{font-size:54px;line-height:1.12;margin:14px 0 18px}.booking-info>p:not(.kicker){line-height:1.7;color:#667066}.contacts{margin-top:22px}.contacts a{display:block;padding:14px;border-top:1px solid rgba(38,51,41,.12);border-radius:12px;color:var(--ink);text-decoration:none;transition:.25s}.contacts a:hover{background:rgba(255,255,255,.45);transform:translateX(4px)}.contacts small,.contacts strong,.contacts span{display:block}.contacts small{color:#778078;margin-bottom:4px}.contacts strong{overflow-wrap:anywhere}.contacts span{margin-top:7px;color:#60755e;font-size:12px;font-weight:600}.hours{margin-top:auto;background:rgba(255,255,255,.68);border:1px solid var(--line);border-radius:16px;padding:18px}.hours>*{display:block}.hours small{text-transform:uppercase;color:#778078}.hours strong{margin:5px 0}.hours span{font-size:12px}.booking-form{background:#fff;padding:52px;display:flex;flex-direction:column;min-height:100%}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px 16px}.form-grid label{font-size:12px;font-weight:600}.full{grid-column:1/-1}input,select,textarea{width:100%;margin-top:9px;padding:17px;border:1px solid #dfe2dc;border-radius:12px;background:#fbfbfa;font:14px "DM Sans",sans-serif;color:var(--ink);outline:0}input:focus,select:focus,textarea:focus{border-color:var(--sage);box-shadow:0 0 0 3px rgba(145,169,137,.15)}textarea{resize:vertical;min-height:126px}.form-bottom{margin-top:auto;padding-top:22px}.submit{width:100%;display:flex;justify-content:space-between;border:0;border-radius:11px;padding:18px 24px;background:var(--ink);color:#fff;font-weight:600;cursor:pointer}.form-bottom p{text-align:center;color:#888f89;font-size:10px}.closing{background:var(--ink);color:#fff;text-align:center;padding:90px 0}.closing .kicker{color:#b6c9ae}.closing h2{font-size:60px;line-height:1.1;margin:16px}.closing>div>p:not(.kicker){color:#d9dfda}.closing>div>div{display:flex;justify-content:center;align-items:center;gap:26px;margin:30px}.light{background:#e7eee3;color:var(--ink)}.chat{color:#fff;text-decoration:none;font-weight:600}.closing footer{display:flex;justify-content:center;margin-top:48px;padding-top:24px;border-top:1px solid rgba(255,255,255,.14)}.closing footer span{padding:0 28px;color:#cad2cc;font-size:12px}.closing footer span+span{border-left:1px solid rgba(255,255,255,.17)}
+@media(max-width:900px){.container,.wide-container{width:min(100% - 36px,1380px)}.hero-grid{grid-template-columns:300px 1fr;gap:38px}.hero-copy h1{font-size:52px}.booking-shell{grid-template-columns:1fr}.hours{margin-top:24px}.service-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:700px){.container,.wide-container{width:min(100% - 28px,1380px)}.navwrap{height:68px}.menu{display:block}nav{display:none;position:absolute;top:74px;left:14px;right:14px;flex-direction:column;gap:0;background:#fff;padding:12px;border-radius:16px;box-shadow:var(--shadow)}nav.open{display:flex}nav a{padding:13px}.hero{padding-top:42px}.hero-grid{display:flex;flex-direction:column;gap:34px;padding-bottom:45px}.profile{width:100%}.hero-copy{text-align:center}.hero-copy h1{font-size:43px}.hero-actions{justify-content:center;flex-wrap:wrap}.stats{grid-template-columns:1fr;text-align:left}.stats div{padding:16px 18px}.benefits{grid-template-columns:1fr 1fr;gap:10px;padding:18px 14px}.benefits div{justify-content:flex-start;background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.07);padding:10px;border-radius:13px;font-size:12px}.benefits b{width:27px;height:27px;flex:0 0 27px}.section{padding:65px 0}.title{font-size:42px}.service-grid{grid-template-columns:1fr;gap:12px}.service-grid article{min-height:auto;padding:18px}.service-grid article>b{width:36px;height:36px;margin-bottom:14px}.service-grid h3{font-size:22px}.booking-info,.booking-form{padding:32px 22px}.booking-info h2{font-size:40px}.form-grid{grid-template-columns:1fr}.form-grid label{grid-column:1/-1}.booking-form{min-height:auto}.form-bottom{margin-top:0}.closing{padding:68px 0}.closing h2{font-size:42px}.closing>div>div{flex-direction:column}.closing footer{display:grid;gap:10px}.closing footer span+span{border-left:0}.closing footer span{padding:0}}
+
+/* Final responsive corrections */
+@media (min-width: 901px){
+  .container,.wide-container{width:calc(100% - 40px);max-width:1540px}
+  .hero-grid{grid-template-columns:380px minmax(0,1fr);gap:clamp(45px,6vw,110px)}
+  .booking-shell{width:calc(100% - 40px);max-width:1540px}
+}
+
+@media (max-width: 700px){
+  .container,.wide-container{width:calc(100% - 20px)}
+  .hero-grid{width:calc(100% - 20px)}
+  .menu{display:flex;flex-direction:column;justify-content:center;align-items:center;position:relative;z-index:100;width:48px;height:48px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+  .menu i{display:block;pointer-events:none}
+  header nav{position:fixed;top:74px;left:10px;right:10px;z-index:99;max-height:0;overflow:hidden;display:flex;opacity:0;visibility:hidden;transform:translateY(-10px);transition:max-height .3s ease,opacity .25s ease,transform .25s ease,visibility .25s;background:#fff;padding:0 14px;border-radius:16px;box-shadow:var(--shadow)}
+  header nav.open{max-height:380px;opacity:1;visibility:visible;transform:translateY(0);padding:12px 14px}
+  .stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;width:100%}
+  .stats div{padding:15px 10px;min-height:98px;text-align:center;display:flex;flex-direction:column;justify-content:center;align-items:center;border-radius:15px}
+  .stats strong{font-size:18px;line-height:1.1;white-space:nowrap}
+  .stats span{font-size:9px;line-height:1.25;margin-top:6px}
+  .hero-copy{width:100%}
+  .hero-actions{gap:16px}
+  .hero-actions .btn{padding:15px 20px}
+  .benefits{padding-left:10px;padding-right:10px}
+  .section{padding-left:0;padding-right:0}
+}
+
+@media (max-width: 380px){
+  .stats{grid-template-columns:1fr}
+  .stats div{min-height:auto;text-align:left;align-items:flex-start;padding:14px 18px}
+}
+
+
+/* Final laptop typography and copyright footer */
+.closing-footer{display:block!important;margin-top:48px;padding-top:24px;border-top:1px solid rgba(255,255,255,.14)}
+.footer-highlights{display:flex!important;justify-content:center!important;align-items:center;gap:0;margin:0!important}
+.footer-highlights span{padding:0 28px;color:#cad2cc;font-size:13px}
+.footer-highlights span+span{border-left:1px solid rgba(255,255,255,.17)}
+.copyright{display:flex!important;justify-content:space-between!important;align-items:center;margin:28px 0 0!important;padding-top:20px;border-top:1px solid rgba(255,255,255,.1);color:#aeb9b1;font-size:12px}
+.copyright a{color:#dce6d8;text-decoration:none;font-weight:600}
+
+@media (max-width:700px){
+ .footer-highlights{display:grid!important;gap:10px}
+ .footer-highlights span{padding:0}
+ .footer-highlights span+span{border-left:0}
+ .copyright{flex-direction:column;gap:12px;text-align:center}
+}
+
+/* Balanced booking form and smaller closing section */
+.form-grid label{font-size:14px;line-height:1.45}
+input,select,textarea{font-size:15px;line-height:1.45}
+input::placeholder,textarea::placeholder{font-size:15px;color:#777f79}
+.submit{width:auto;min-width:280px;align-self:flex-start;display:inline-flex;align-items:center;justify-content:center;gap:22px;padding:16px 26px;border-radius:999px;font-size:14px;letter-spacing:.1px}
+.form-bottom{display:flex;flex-direction:column;align-items:flex-start}
+.form-bottom p{width:100%;text-align:left;margin:12px 0 0}
+.closing{padding:64px 0 36px}
+.closing h2{font-size:50px;line-height:1.08;margin:13px 0 16px}
+.closing>div>p:not(.kicker){font-size:14px;margin:0 auto;max-width:720px}
+.closing>div>div{margin:25px 0 32px}
+.closing-footer{margin-top:34px;padding-top:20px}
+.copyright{margin-top:20px!important;padding-top:17px}
+
+@media(max-width:700px){
+  .form-grid label{font-size:13px}
+  input,select,textarea,input::placeholder,textarea::placeholder{font-size:14px}
+  .form-bottom{align-items:stretch}
+  .submit{width:100%;min-width:0;justify-content:space-between;border-radius:12px}
+  .form-bottom p{text-align:center}
+  .closing{padding:52px 0 28px}
+  .closing h2{font-size:37px}
+  .closing>div>div{margin:22px 0 28px}
+  .closing-footer{margin-top:28px}
+}
+
+
+/* Final centered booking action and compact footer */
+@media (min-width:701px){
+  .form-bottom{align-items:center}
+  .submit{align-self:center;min-width:320px;justify-content:center;gap:12px}
+  .form-bottom p{text-align:center}
+}
+.closing{padding:48px 0 24px}
+.closing .kicker{margin:0 0 10px}
+.closing h2{font-size:44px;line-height:1.06;margin:8px 0 13px}
+.closing>div>p:not(.kicker){font-size:13px;line-height:1.55}
+.closing>div>div{margin:20px 0 24px}
+.closing .btn{padding:13px 22px}
+.closing-footer{margin-top:24px!important;padding-top:16px!important}
+.footer-highlights{margin:0!important}
+.footer-highlights>span{padding:0 24px!important;font-size:12px!important}
+.copyright{margin-top:16px!important;padding-top:14px!important;font-size:12px!important}
+.copyright-text{display:inline!important;padding:0!important;border:0!important;color:#aeb9b1!important}
+.copyright-text #year{display:inline!important;padding:0!important;border:0!important;color:inherit!important}
+.copyright a{padding:0!important}
+
+@media(max-width:700px){
+  .closing{padding:46px 0 24px}
+  .closing h2{font-size:36px}
+  .closing>div>div{margin:20px 0 24px}
+  .closing-footer{margin-top:24px!important}
+  .copyright{margin-top:16px!important;padding-top:14px!important}
+}
